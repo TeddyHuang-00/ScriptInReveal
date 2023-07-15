@@ -25,3 +25,5 @@
    ````
 
    And this will lead to an unexpected termination of the slides at the `</script>` tag. Check through `pnpm docs:dev`
+
+4. (For comparison) Insert the same code block as above in [intro](./src/intro.md), and it works fine.
