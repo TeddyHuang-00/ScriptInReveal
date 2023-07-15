@@ -22,6 +22,18 @@ layout: Slide
 
 ---
 
+<!-- .slide: data-transition="slide" -->
+
+## HTML 代码
+
+```html
+<script>
+  alert("Hello World!");
+</script>
+```
+
+---
+
 ## 标注幻灯片
 
 <!-- .element: class="r-fit-text" -->

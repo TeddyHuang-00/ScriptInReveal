@@ -9,3 +9,19 @@
    ```sh
    pnpm docs:update-package
    ```
+
+3. Insert html code block in [slides](./src/slides.md)
+
+   ````md
+   <!-- .slide: data-transition="slide" -->
+
+   ## HTML 代码
+
+   ```html
+   <script>
+     alert("Hello World!");
+   </script>
+   ```
+   ````
+
+   And this will lead to an unexpected termination of the slides at the `</script>` tag. Check through `pnpm docs:dev`
